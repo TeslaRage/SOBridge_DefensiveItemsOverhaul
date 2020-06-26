@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>a991e236-2aa1-4204-b750-3a4076accf14</Guid>
+    <Name>CIBridge_DefensiveItemsOverhaul</Name>
+    <Description>Description of My XCOM 2 Mod.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>CIBridge_DefensiveItemsOverhaul</AssemblyName>
+    <RootNamespace>CIBridge_DefensiveItemsOverhaul</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\CIBridge_DefensiveItemsOverhaul\" />
+    <Folder Include="Src\CIBridge_DefensiveItemsOverhaul\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComInfiltration.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPlatedVests.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWeaponSkinReplacer.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\CIBridge_DefensiveItemsOverhaul\Classes\X2DownloadableContentInfo_CIBridge_DefensiveItemsOverhaul.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
