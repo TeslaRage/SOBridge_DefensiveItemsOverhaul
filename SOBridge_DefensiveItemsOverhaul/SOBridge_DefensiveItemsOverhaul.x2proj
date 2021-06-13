@@ -7,6 +7,7 @@
     <SteamPublishID>0</SteamPublishID>
     <AssemblyName>SOBridge_DefensiveItemsOverhaul</AssemblyName>
     <RootNamespace>SOBridge_DefensiveItemsOverhaul</RootNamespace>
+	<ProjectGuid>{9011171D-0D84-4098-8293-D0D89B2630AB}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Config\" />
