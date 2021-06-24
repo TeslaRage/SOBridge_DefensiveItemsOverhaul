@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Guid>a991e236-2aa1-4204-b750-3a4076accf14</Guid>
@@ -7,12 +7,15 @@
     <SteamPublishID>0</SteamPublishID>
     <AssemblyName>SOBridge_DefensiveItemsOverhaul</AssemblyName>
     <RootNamespace>SOBridge_DefensiveItemsOverhaul</RootNamespace>
-	<ProjectGuid>{9011171D-0D84-4098-8293-D0D89B2630AB}</ProjectGuid>
+    <ProjectGuid>{9011171D-0D84-4098-8293-D0D89B2630AB}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Config\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComInfiltration.ini">
       <SubType>Content</SubType>
     </Content>
